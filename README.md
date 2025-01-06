@@ -7,12 +7,12 @@ Um loszulegen, befolge einfach die bereitgestellten Befehle, um deine TermuX-Umg
 
 [-] Klone das TermuX-Custom6-Repository in deinem Termux: `git clone https://github.com/k1llerpc/MIB-TERMUX-STYLE.git`
 
-[-] Navigiere zum geklonten Repository-Verzeichnis: `cd TermuX-Custom`
+[-] Navigiere zum geklonten Repository-Verzeichnis: `cd MIB-TERMUX-STYLE`
 
 [-] Füge allen Dateien im Verzeichnis Ausführungsberechtigungen hinzu: `chmod +x *`
 
 [-] Führe das Setup-Skript aus, um die Anpassungen anzuwenden: `bash setup.sh`
 
 Alle Befehle in einer Zeile
-`apt update && apt upgrade && pkg install git && git clone https://github.com/k1llerpc/MIB-TERMUX-STYLE.git && cd TermuX-Custom && chmod +x * && bash setup.sh`
+`apt update && apt upgrade && pkg install git && git clone https://github.com/k1llerpc/MIB-TERMUX-STYLE.git && cd MIB-TERMUX-STYLE && chmod +x * && bash setup.sh`
 
