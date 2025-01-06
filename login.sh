@@ -18,24 +18,24 @@ cat <<LOGIN>bash.bashrc
 trap '' 2                                          
 echo -e "\e[1;32m      
 
-🅼🆁.🅱🅻🅰🅲🅺 🆃🅴🆁🅼🅸🅽🅰🅻
+𝐌𝐈𝐁 𝐓𝐄𝐑𝐌𝐔𝐗 𝐓𝐄𝐑𝐌𝐈𝐍𝐀𝐋
                                                            
                                                            
 
 \033[32m           ────────────────────────────
-\033[33m               Login To \033[32mContinue
+\033[33m               ZUGANSDATEN \033[33meingeben
 \033[32m           ────────────────────────────
 
 
 \e[0m"
 echo
-read -p $'       \e[33m\033[1m\033[33m[\033[31m+\033[33m] \033[37mUSERNAME \033[33meingeben:\033[32m ' user
-read -s -p $'       \e[32m\033[1m\033[33m[\033[31m+\033[33m] \033[37mPasswort \033[33meingeben:\033[33m ' pass                                                
+read -p $'       \e[33m\033[1m\033[33m[\033[32m+\033[33m] \033[32mName \033[33meingeben:\033[32m ' user
+read -s -p $'       \e[33m\033[1m\033[33m[\033[32m+\033[33m] \033[32mPasswort \033[33meingeben:\033[33m ' pass                                                
 if [[ \$pass == $password && \$user == $username ]]; then
 sleep 3
 clear
 cd $HOME
-cd TermuX-Custom
+cd MIB-TERMUX-STYLE
 cd Song
 python sound_effect.py
 clear
@@ -43,7 +43,7 @@ cd $HOME
 echo -e "\033[1m\033[33m
 
 
-🅼🆁.🅱🅻🅰🅲🅺 🆃🅴🆁🅼🅸🅽🅰🅻
+𝐌𝐈𝐁 𝐓𝐄𝐑𝐌𝐔𝐗 𝐓𝐄𝐑𝐌𝐈𝐍𝐀𝐋
 
 
 "
@@ -71,11 +71,11 @@ shopt -s compat32
 shopt -s lithist
 comment
 cd $HOME
-cd TermuX-Custom
+cd MIB-TERMUX-STYLE
 cd
 else
 echo ""
-echo -e "\e[1;31m  You Entered wrong Details! 
+echo -e "\e[1;31m  Falsches Login! 
 \e[0m"
 sleep 1
 cmatrix -L
@@ -85,8 +85,8 @@ LOGIN
 echo 
 echo
 echo 
-echo -e "\033[1m\e[1;32m Your Termux is \033[33mReady \n
-       So please \033[31mExit \033[37mand \033[32mLogin.\e[0m"
+echo -e "\033[1m\e[1;32m Dein MIB Terminal ist  \033[33mBEREIT \n
+       Bitte schliessen \033[31mund\033[37mNEU \033[32mstarten.\e[0m"
 echo
 echo
 
